@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShaqoHub — Jobs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <nav class="navbar">
+      <a class="brand" href="index.html">
+        <div class="logo" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <path d="M4 7.5C4 6.12 5.12 5 6.5 5h11C18.88 5 20 6.12 20 7.5V9H4V7.5Z" stroke="white" stroke-width="2"/>
+            <path d="M4 9h16v8.5c0 1.38-1.12 2.5-2.5 2.5h-11C5.12 20 4 18.88 4 17.5V9Z" stroke="white" stroke-width="2"/>
+            <path d="M9 5V4.2c0-.66.54-1.2 1.2-1.2h3.6c.66 0 1.2.54 1.2 1.2V5" stroke="white" stroke-width="2"/>
+          </svg>
+        </div>
+        <span>ShaqoHub</span>
+      </a>
+
+      <input type="checkbox" id="navToggle" />
+      <label class="burger" for="navToggle"><span></span></label>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="jobs.html">Jobs</a>
+        <a href="freelancers.html">Freelancers</a>
+        <a href="post-job.html">Post Job</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="login.html">Login</a>
+      </div>
+
+      <div class="actions">
+        <a class="btn ghost" href="login.html">Sign in</a>
+        <a class="btn primary" href="post-job.html">Post a Job</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="container">
+      <div class="breadcrumb">Home / Jobs</div>
+      <div class="page-title">
+        <div>
+          <h2>Jobs</h2>
+          <p>Raadi shaqooyinka ku habboon — filter ku samee magaalada iyo category.</p>
+        </div>
+        <a class="btn primary" href="post-job.html">Post Job</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:18px;">
+    <div class="container">
+      <div class="filters card">
+        <input class="input" type="text" placeholder="Search: title / company..." />
+        <select>
+          <option>Magaalo</option>
+          <option>Muqdisho</option>
+          <option>Hargeisa</option>
+          <option>Kismaayo</option>
+          <option>Baydhabo</option>
+        </select>
+        <select>
+          <option>Category</option>
+          <option>Web / IT</option>
+          <option>Design</option>
+          <option>Accounting</option>
+          <option>Marketing</option>
+        </select>
+        <a class="btn primary" href="#">Search</a>
+      </div>
+
+      <div class="card list" style="margin-top:16px;">
+        <div class="item">
+          <div style="display:flex; gap:12px;">
+            <div class="avatar" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M7 21h10a4 4 0 0 0 4-4V9a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4Z" stroke="white" stroke-width="2"/>
+                <path d="M8 9h8M8 13h6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Frontend Developer (React)</h3>
+              <p>Company: SomaliSoft • Muqdisho • Contract</p>
+              <div class="badges" style="margin-top:10px;">
+                <span class="badge brand">Remote</span>
+                <span class="badge">Web / IT</span>
+                <span class="badge ok">Verified</span>
+              </div>
+              <div class="meta-row">
+                <span class="pill">Salary: $500–$900</span>
+                <span class="pill">Deadline: 10 days</span>
+              </div>
+            </div>
+          </div>
+          <div class="item-right">
+            <a class="btn primary" href="login.html">Apply</a>
+            <a class="btn" href="login.html">WhatsApp Apply</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div style="display:flex; gap:12px;">
+            <div class="avatar" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7Z" stroke="white" stroke-width="2"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Social Media Manager</h3>
+              <p>Company: SuuqPro • Hargeisa • Part-time</p>
+              <div class="badges" style="margin-top:10px;">
+                <span class="badge">Marketing</span>
+                <span class="badge brand">On-site</span>
+                <span class="badge warn">5 days left</span>
+              </div>
+              <div class="meta-row">
+                <span class="pill">Salary: Negotiable</span>
+                <span class="pill">Experience: 1+ year</span>
+              </div>
+            </div>
+          </div>
+          <div class="item-right">
+            <a class="btn primary" href="login.html">Apply</a>
+            <a class="btn" href="login.html">WhatsApp Apply</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div style="display:flex; gap:12px;">
+            <div class="avatar" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M4 20h16M6 16V6h12v10" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                <path d="M9 10h6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Accountant (Junior)</h3>
+              <p>Company: Horumar Finance • Muqdisho • Full-time</p>
+              <div class="badges" style="margin-top:10px;">
+                <span class="badge">Accounting</span>
+                <span class="badge ok">Verified</span>
+              </div>
+              <div class="meta-row">
+                <span class="pill">Salary: $300–$450</span>
+                <span class="pill">Deadline: 14 days</span>
+              </div>
+            </div>
+          </div>
+          <div class="item-right">
+            <a class="btn primary" href="login.html">Apply</a>
+            <a class="btn" href="login.html">WhatsApp Apply</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container foot">
+    <div>© <b>ShaqoHub</b> — Jobs</div>
+    <div style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="index.html">Home</a>
+      <a href="freelancers.html">Freelancers</a>
+      <a href="pricing.html">Pricing</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
