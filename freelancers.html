@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShaqoHub — Freelancers</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <nav class="navbar">
+      <a class="brand" href="index.html">
+        <div class="logo" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <path d="M4 7.5C4 6.12 5.12 5 6.5 5h11C18.88 5 20 6.12 20 7.5V9H4V7.5Z" stroke="white" stroke-width="2"/>
+            <path d="M4 9h16v8.5c0 1.38-1.12 2.5-2.5 2.5h-11C5.12 20 4 18.88 4 17.5V9Z" stroke="white" stroke-width="2"/>
+            <path d="M9 5V4.2c0-.66.54-1.2 1.2-1.2h3.6c.66 0 1.2.54 1.2 1.2V5" stroke="white" stroke-width="2"/>
+          </svg>
+        </div>
+        <span>ShaqoHub</span>
+      </a>
+
+      <input type="checkbox" id="navToggle" />
+      <label class="burger" for="navToggle"><span></span></label>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a class="active" href="freelancers.html">Freelancers</a>
+        <a href="post-job.html">Post-Job</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="login.html">Login</a>
+      </div>
+
+      <div class="actions">
+        <a class="btn ghost" href="login.html">Sign in</a>
+        <a class="btn primary" href="login.html">Create Profile</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="container">
+      <div class="breadcrumb">Home / Freelancers</div>
+      <div class="page-title">
+        <div>
+          <h2>Freelancers</h2>
+          <p>Raadi xirfadle — portfolio, rate, iyo reviews.</p>
+        </div>
+        <a class="btn primary" href="login.html">Hire Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:18px;">
+    <div class="container">
+      <div class="filters card">
+        <input class="input" type="text" placeholder="Search: skills" />
+        <select>
+          <option>Category</option>
+          <option>Design</option>
+          <option>Video Editing</option>
+          <option>Web Development</option>
+          <option>Writing</option>
+        </select>
+        <select>
+          <option>Magaalo</option>
+          <option>Muqdisho</option>
+          <option>Hargeisa</option>
+          <option>Garowe</option>
+        </select>
+        <a class="btn primary" href="#">Search</a>
+      </div>
+
+      <div class="card list" style="margin-top:16px;">
+        <div class="item">
+          <div style="display:flex; gap:12px;">
+            <div class="avatar" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Z" stroke="white" stroke-width="2"/>
+                <path d="M20 21a8 8 0 0 0-16 0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Hodan • UI/UX Designer</h3>
+              <p>Skills: Figma, Branding, Landing Pages</p>
+              <div class="badges" style="margin-top:10px;">
+                <span class="badge ok">Verified</span>
+                <span class="badge">Design</span>
+                <span class="badge brand">Top Rated</span>
+              </div>
+              <div class="meta-row">
+                <span class="pill">Rate: $15/hr</span>
+                <span class="pill">City: Muqdisho</span>
+              </div>
+            </div>
+          </div>
+          <div class="item-right">
+            <a class="btn primary" href="login.html">Contact</a>
+            <a class="btn" href="login.html">View Portfolio</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div style="display:flex; gap:12px;">
+            <div class="avatar" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M4 19h16M7 16V6h10v10" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                <path d="M9 9h6M9 12h6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Cabdi • Web Developer</h3>
+              <p>Skills: HTML/CSS,JAVASCRIPT, REACT, SQL Server</p>
+              <div class="badges" style="margin-top:10px;">
+                <span class="badge">Web</span>
+                <span class="badge brand">Available</span>
+              </div>
+              <div class="meta-row">
+                <span class="pill">Project: from $150</span>
+                <span class="pill">City: Hargeisa</span>
+              </div>
+            </div>
+          </div>
+          <div class="item-right">
+            <a class="btn primary" href="login.html">Hire</a>
+            <a class="btn" href="login.html">WhatsApp number</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div style="display:flex; gap:12px;">
+            <div class="avatar" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M4 6h16v12H4V6Z" stroke="white" stroke-width="2"/>
+                <path d="M7 9h10M7 12h6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Fadumo • Content Writer</h3>
+              <p>Skills: Somali/English writing, copywriting, CVs</p>
+              <div class="badges" style="margin-top:10px;">
+                <span class="badge">Writing</span>
+                <span class="badge warn">Fast Delivery</span>
+              </div>
+              <div class="meta-row">
+                <span class="pill">Rate: $10/hr</span>
+                <span class="pill">Remote</span>
+              </div>
+            </div>
+          </div>
+          <div class="item-right">
+            <a class="btn primary" href="login.html">Contact</a>
+            <a class="btn" href="login.html">Order Service</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container foot">
+    <div>© <b>ShaqoHub</b> — Freelancers-board</div>
+    <div style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="index.html">Home</a>
+      <a href="jobs.html">Jobs</a>
+      <a href="pricing.html">Pricing</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
