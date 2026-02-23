@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShaqoHub — Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <nav class="navbar">
+      <a class="brand" href="index.html">
+        <div class="logo" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <path d="M4 7.5C4 6.12 5.12 5 6.5 5h11C18.88 5 20 6.12 20 7.5V9H4V7.5Z" stroke="white" stroke-width="2"/>
+            <path d="M4 9h16v8.5c0 1.38-1.12 2.5-2.5 2.5h-11C5.12 20 4 18.88 4 17.5V9Z" stroke="white" stroke-width="2"/>
+            <path d="M9 5V4.2c0-.66.54-1.2 1.2-1.2h3.6c.66 0 1.2.54 1.2 1.2V5" stroke="white" stroke-width="2"/>
+          </svg>
+        </div>
+        <span>ShaqoHub</span>
+      </a>
+
+      <input type="checkbox" id="navToggle" />
+      <label class="burger" for="navToggle"><span></span></label>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="freelancers.html">Freelancers</a>
+        <a href="post-job.html">Post Job</a>
+        <a href="pricing.html">Pricing</a>
+        <a class="active" href="login.html">Login</a>
+      </div>
+
+      <div class="actions">
+        <a class="btn primary" href="post-job.html">Post a Job</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-head">
+    <div class="container">
+      <div class="breadcrumb">Home / Login</div>
+      <div class="page-title">
+        <div>
+          <h2>Login</h2>
+          <p>Demo form (HTML/CSS only).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:18px;">
+    <div class="container grid grid-2">
+      <div class="card form">
+        <div class="kicker">Sign In</div>
+        <h3 style="margin:8px 0 10px;">Ku gal ShaqoHub</h3>
+        <form action="#" method="post">
+          <div style="margin-bottom:12px;">
+            <label>Email or Phone</label>
+            <input class="input" type="text" placeholder="email ama +252..." />
+          </div>
+          <div style="margin-bottom:12px;">
+            <label>Password</label>
+            <input class="input" type="password" placeholder="••••••••" />
+          </div>
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Login</button>
+            <a class="btn" href="jobs.html">Browse Jobs</a>
+          </div>
+          <p class="small" style="margin-top:12px;">
+            Account ma lihid? <a href="#" style="color:var(--brand); font-weight:800;">Create one</a>
+          </p>
+        </form>
+      </div>
+
+      <div class="card" style="padding:18px;">
+        <div class="kicker">Why login?</div>
+        <h3 style="margin:8px 0 10px;">Faa’iido</h3>
+        <div class="grid">
+          <div class="stat">
+            <b>Apply Faster</b>
+            <span>CV + cover letter keydso</span>
+          </div>
+          <div class="stat">
+            <b>Verified Badge</b>
+            <span>Company/Freelancer la xaqiijiyo</span>
+          </div>
+          <div class="stat">
+            <b>Profile & Portfolio</b>
+            <span>Show skills & work samples</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container foot">
+    <div>© <b>ShaqoHub</b> — Login</div>
+    <div style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="index.html">Home</a>
+      <a href="pricing.html">Pricing</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
